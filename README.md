@@ -9,10 +9,10 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@hianali/material-symbols-cli"><img src="https://img.shields.io/npm/v/%40hianali%2Fmaterial-symbols-cli.svg?style=flat-square&color=0078d4" alt="npm version" /></a>
-  <a href="https://www.npmjs.com/package/@hianali/material-symbols-cli"><img src="https://img.shields.io/npm/dm/%40hianali%2Fmaterial-symbols-cli.svg?style=flat-square&color=4caf50" alt="npm downloads" /></a>
-  <a href="https://bundlephobia.com/package/%40hianali%2Fmaterial-symbols-cli"><img src="https://img.shields.io/bundlephobia/minzip/%40hianali%2Fmaterial-symbols-cli?style=flat-square&color=ff9800" alt="bundle size" /></a>
-  <a href="https://github.com/hianali/material-symbols-cli/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/%40hianali%2Fmaterial-symbols-cli.svg?style=flat-square&color=607d8b" alt="license" /></a>
+  <a href="https://www.npmjs.com/package/material-symbols-cli"><img src="https://img.shields.io/npm/v/material-symbols-cli.svg?style=flat-square&color=0078d4" alt="npm version" /></a>
+  <a href="https://www.npmjs.com/package/material-symbols-cli"><img src="https://img.shields.io/npm/dm/material-symbols-cli.svg?style=flat-square&color=4caf50" alt="npm downloads" /></a>
+  <a href="https://bundlephobia.com/package/material-symbols-cli"><img src="https://img.shields.io/bundlephobia/minzip/material-symbols-cli?style=flat-square&color=ff9800" alt="bundle size" /></a>
+  <a href="https://github.com/yermartee/material-symbols-cli/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/material-symbols-cli.svg?style=flat-square&color=607d8b" alt="license" /></a>
   <img src="https://img.shields.io/badge/TypeScript-5.9-blue?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Node.js-%3E%3D20-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
 </p>
@@ -52,7 +52,7 @@ Existing Material Symbols packages ship **every icon upfront** — fonts, CSS bu
 
 ```bash
 # Install
-pnpm add -D @hianali/material-symbols-cli    # or npm / yarn / bun
+pnpm add -D material-symbols-cli    # or npm / yarn / bun
 
 # Create config
 msym init
@@ -69,16 +69,16 @@ The package exposes two executable names: `msym` and `material-symbols`. The exa
 
 ```bash
 # pnpm (recommended)
-pnpm add -D @hianali/material-symbols-cli
+pnpm add -D material-symbols-cli
 
 # npm
-npm install -D @hianali/material-symbols-cli
+npm install -D material-symbols-cli
 
 # yarn
-yarn add -D @hianali/material-symbols-cli
+yarn add -D material-symbols-cli
 
 # bun
-bun add -D @hianali/material-symbols-cli
+bun add -D material-symbols-cli
 ```
 
 ## Configuration
@@ -86,7 +86,7 @@ bun add -D @hianali/material-symbols-cli
 Create `material-symbols.config.mts` in your project root:
 
 ```ts
-import { defineConfig } from "@hianali/material-symbols-cli/config";
+import { defineConfig } from "material-symbols-cli/config";
 
 export default defineConfig({
   icons: ["home", "search", "menu", "close", "settings", "arrow_back"],
@@ -382,7 +382,7 @@ import {
   resolveComponentName,
   resolveFileName,
   variantSuffix,
-} from "@hianali/material-symbols-cli";
+} from "material-symbols-cli";
 
 const config = resolveConfig({
   icons: ["home", "search"],

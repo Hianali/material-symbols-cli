@@ -63,7 +63,7 @@ program
       return;
     }
 
-    const content = `import { defineConfig } from "@hianali/material-symbols-cli/config";
+    const content = `import { defineConfig } from "material-symbols-cli/config";
 
 export default defineConfig({
   icons: ["home", "search", "menu", "close", "settings"],

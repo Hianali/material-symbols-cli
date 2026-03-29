@@ -99,7 +99,7 @@ export const loadConfigFile = async (cwd: string) => {
       if (!configModule.default) {
         throw new Error(
           `Config file "${fileName}" must have a default export.\n` +
-            `Example:\n  import { defineConfig } from "@hianali/material-symbols-cli/config";\n` +
+            `Example:\n  import { defineConfig } from "material-symbols-cli/config";\n` +
             `  export default defineConfig({ icons: ["home"] });`,
         );
       }

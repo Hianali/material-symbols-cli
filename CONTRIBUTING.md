@@ -4,7 +4,7 @@
 
 ```bash
 # Clone the repo
-git clone https://github.com/hianali/material-symbols-cli.git
+git clone https://github.com/yermartee/material-symbols-cli.git
 cd material-symbols-cli
 
 # Install dependencies (pnpm required)
@@ -98,7 +98,7 @@ chore: bump svgo to 3.4.0
 
 ## Reporting Issues
 
-- Use the [GitHub issue tracker](https://github.com/hianali/material-symbols-cli/issues).
+- Use the [GitHub issue tracker](https://github.com/yermartee/material-symbols-cli/issues).
 - Include your Node.js version, OS, and the full error output.
 - For feature requests, describe the use case and expected behavior.
 

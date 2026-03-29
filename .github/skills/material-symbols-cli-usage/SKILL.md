@@ -7,7 +7,7 @@ description: "Use when installing or integrating material-symbols-cli in an app,
 
 ## Use This Skill For
 
-- Installing `@hianali/material-symbols-cli` in an application.
+- Installing `material-symbols-cli` in an application.
 - Creating or editing `material-symbols.config.mts`.
 - Choosing between `mui`, `react`, `react-native`, `vue`, `angular`, `svelte`, `solid`, `preact`, `qwik`, `lit`, `web-component`, `flutter`, and `svg` outputs.
 - Generating icons with `msym init`, `msym sync`, `msym list`, `msym add`, or `msym remove`.
@@ -16,13 +16,13 @@ description: "Use when installing or integrating material-symbols-cli in an app,
 ## Install
 
 ```bash
-pnpm add -D @hianali/material-symbols-cli
+pnpm add -D material-symbols-cli
 ```
 
 ## Minimal Config
 
 ```ts
-import { defineConfig } from "@hianali/material-symbols-cli/config";
+import { defineConfig } from "material-symbols-cli/config";
 
 export default defineConfig({
   icons: ["home", "search"],

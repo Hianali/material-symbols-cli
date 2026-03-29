@@ -1,20 +1,20 @@
 {
-  "name": "@hianali/material-symbols-cli",
+  "name": "material-symbols-cli",
   "version": "0.1.0",
   "description": "CLI tool to fetch Google Material Symbols and generate tree-shakable icon components for React, React Native, MUI, Vue, Angular, Svelte, Solid, Preact, Qwik, Lit, Web Components, Flutter, and raw SVG",
-  "author": "Hianali <info@hianali.io> (https://hianali.io)",
+  "author": "yermartee (https://github.com/yermartee)",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hianali/material-symbols-cli.git"
+    "url": "git+https://github.com/yermartee/material-symbols-cli.git"
   },
-  "homepage": "https://github.com/hianali/material-symbols-cli#readme",
+  "homepage": "https://github.com/yermartee/material-symbols-cli#readme",
   "bugs": {
-    "url": "https://github.com/hianali/material-symbols-cli/issues"
+    "url": "https://github.com/yermartee/material-symbols-cli/issues"
   },
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/hianali"
+    "url": "https://github.com/sponsors/yermartee"
   },
   "keywords": [
     "material-symbols",
